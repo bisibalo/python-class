@@ -78,9 +78,21 @@
 # print(float(x))
 # print(bool(x))
 
-A=35
-B= str(A)
-C=int(B[0]) + int(B[1])
-print(f'{B[0]} + {B[1]} ={C}')
+# A=35
+# B= str(A)
+# C=int(B[0]) + int(B[1])
+# print(f'{B[0]} + {B[1]} ={C}')
+
+age=int(input("what is your age"))
+week=52 * age
+days=365 * age
+months=12 * age
+
+neww=52 * 90
+newd=365 * 90
+newm=12 * 90
+
+print(f"you have {newd-days} days {neww-week} weeks and {newm-months} months left")
+
 
 
